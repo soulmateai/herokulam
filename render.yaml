@@ -1,0 +1,6 @@
+services:
+  - name: debian-container
+    type: web
+    env: docker
+    plan: free
+    autoDeploy: true
